@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    featureSplit="native"
+    package="com.iqiyi.qigsaw.sample"
+    android:targetSandboxVersion="2"
+    android:versionCode="271"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="28" />
+
+    <dist:module
+        dist:onDemand="true"
+        dist:title="@string/module_native" >
+        <dist:fusing dist:include="false" />
+    </dist:module>
+
+    <application android:debuggable="true" >
+        <activity
+            android:name="com.iqiyi.qigsaw.sample.ccode.NativeSampleActivity"
+            android:splitName="native" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

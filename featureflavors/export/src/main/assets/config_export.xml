@@ -1,0 +1,4 @@
+<config>
+    <key1 type="string">export</key1>
+    <key2 type="bool">true</key2>
+</config>

@@ -1,0 +1,4 @@
+<config>
+    <key1 type="string">domestic</key1>
+    <key2 type="bool">false</key2>
+</config>

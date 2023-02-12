@@ -1,0 +1,9 @@
+# Referenced at /Users/michael/softarclee/opensource-project/Qigsaw/features/java/build/intermediates/merged_manifests/debug/AndroidManifest.xml:26
+-keep class com.iqiyi.qigsaw.sample.java.JavaContentProvider { <init>(); }
+# Referenced at /Users/michael/softarclee/opensource-project/Qigsaw/features/java/build/intermediates/merged_manifests/debug/AndroidManifest.xml:22
+-keep class com.iqiyi.qigsaw.sample.java.JavaSampleActivity { <init>(); }
+# Referenced at /Users/michael/softarclee/opensource-project/Qigsaw/features/java/build/intermediates/merged_manifests/debug/AndroidManifest.xml:19
+-keep class com.iqiyi.qigsaw.sample.java.JavaSampleApplication { <init>(); }
+# Referenced at /Users/michael/softarclee/opensource-project/Qigsaw/features/java/src/main/res/layout/activity_java_sample.xml:2
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(...); }
+

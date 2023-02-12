@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrey">#808080</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="prompt_desc">使用此功能将会消耗您约%sM流量数据，是否继续下载？</string>
+    <string name="warm_prompt">温馨提示</string>
+    <style name="Theme.ActivityDialogStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+</resources>

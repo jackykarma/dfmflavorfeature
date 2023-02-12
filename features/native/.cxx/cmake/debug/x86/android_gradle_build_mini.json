@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/michael/softarclee/android-sdk/cmake/3.6.4111459/bin/cmake --build /Users/michael/softarclee/opensource-project/Qigsaw/features/native/.cxx/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "hello-jni-Debug-x86": {
+      "artifactName": "hello-jni",
+      "buildCommand": "/Users/michael/softarclee/android-sdk/cmake/3.6.4111459/bin/cmake --build /Users/michael/softarclee/opensource-project/Qigsaw/features/native/.cxx/cmake/debug/x86 --target hello-jni",
+      "abi": "x86",
+      "output": "/Users/michael/softarclee/opensource-project/Qigsaw/features/native/build/intermediates/cmake/debug/obj/x86/libhello-jni.so"
+    }
+  }
+}

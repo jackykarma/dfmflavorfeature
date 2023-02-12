@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jacky.android.app_aab">
+
+<!--    replace按照合并规则是保留高优先级清单中的值，但是并不能保留低优先级清单中的值。所以dfm中配置的值根本无用。
+但奇怪的点在于meta-data中为啥可以呢？区别就是node replace和属性replace-->
+<!--    但allowBackup却不行，原因是什么不得而知。-->
+    <application
+        android:allowBackup="false"
+        tools:replace="android:allowBackup"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <!--结点替换-->
+<!--        Manifest merger failed : Attribute meta-data#app_key@value value=(null) from AndroidManifest.xml:18:13-33
+	is also present at [:domestic] AndroidManifest.xml:46:13-44 value=(@string/app_key). 若不加tools:node="replace",则会报错-->
+<!--        实际上合并的manifest确实是保留的base中的，但是split apk安装运行后，获取的app key确实又生效的。这里面很奇怪。-->
+<!--        因为结点属性值低优先级与高优先级不同，因此必须添加合并标记以处理冲突。加上replace后，等于是保留高优先级的，忽略低优先级，但是实际运行起来低优先级又发挥作用
+说明dfm的manifest在安装后还是被pkms解析了。-->
+        <meta-data
+            android:name="app_key"
+            android:value="null"
+            tools:node="replace"
+            />
+        <meta-data
+            android:name="android.app.shortcuts"
+            android:value="@xml/shortcuts_default"
+            tools:node="replace" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+        </activity>
+    </application>
+    <!--    好奇的是：queries可能包含多个package，那么dfm中替换过怎么知道替换哪个？触发只有一个标记了replace？-->
+    <!--    没有办法按照属性的value进行替换，比如把dfm中的com.jacky.cast.domestic替换cast值，没有一个标签标记，无法指定合并规则-->
+    <!--    既然queries可能有多个，那么可以所有queries结点一起替换不就可以了吗？-->
+    <!--    与meta-data一样的思路。但有疑点 aab中没有看到合并后的manifest文件，base中的就是吗-->
+    <!--    占位-->
+    <!--    实际上meta-data在运行时加载插件后确实是起到作用了-->
+    <queries tools:node="replace">
+        <!--        <package android:name="cast" tools:node="replace" />-->
+        <!--        <package android:name="pmres" tools:node="replace" />-->
+        <!--        <package android:name="com.jacky.test" tools:node="replace" />-->
+    </queries>
+
+</manifest>

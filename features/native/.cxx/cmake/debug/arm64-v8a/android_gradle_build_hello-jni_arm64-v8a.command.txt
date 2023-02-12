@@ -1,0 +1,8 @@
+Executable : /Users/michael/softarclee/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+--build
+/Users/michael/softarclee/opensource-project/Qigsaw/features/native/.cxx/cmake/debug/arm64-v8a
+--target
+hello-jni
+jvmArgs : 
+

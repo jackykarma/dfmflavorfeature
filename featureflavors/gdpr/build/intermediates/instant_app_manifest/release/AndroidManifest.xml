@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2018 Google LLC.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+-->
+<!-- This feature module only contains a single assets file relevant to the Android app. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    featureSplit="gdpr"
+    package="com.jacky.android.app_aab"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="28" />
+
+    <dist:module
+        dist:onDemand="true"
+        dist:title="@string/dfm_gdpr" >
+        <dist:fusing dist:include="false" />
+    </dist:module>
+
+    <!--
+    如果您的应用以 Android 11（API 级别 30）或更高版本为目标平台，
+    并且需要与应用（自动可见的应用除外）交互，请在您应用的清单文件中添加 <queries> 元素。
+    在 <queries> 元素中，按软件包名称、按 intent 签名或按提供程序授权指定其他应用
+    -->
+    <queries>
+        <package android:name="com.jacky.gdpr.cast" />
+        <package android:name="com.jacky.gdpr.pmres" />
+        <package android:name="com.jacky.test" />
+    </queries>
+
+    <application android:hasCode="false" >
+        <meta-data
+            android:name="app_key"
+            android:value="@string/app_key" />
+        <meta-data
+            android:name="android.app.shortcuts"
+            android:value="@xml/shortcuts_gdpr" />
+    </application>
+
+</manifest>

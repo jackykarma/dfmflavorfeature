@@ -1,0 +1,3 @@
+int id activity_hello_java 0x7e010000
+int layout activity_java_sample 0x7e020000
+int string content_text 0x7e030000

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/export/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/export/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "63",
+                        "endColumns": "67",
+                        "endOffsets": "126"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "65",
+                        "endOffsets": "161"
+                    }
+                }
+            ]
+        }
+    ]
+}

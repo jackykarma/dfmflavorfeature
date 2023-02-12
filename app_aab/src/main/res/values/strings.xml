@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app_aab</string>
+    <string name="dfm_dom">Domestic</string>
+    <string name="dfm_export">Export</string>
+    <string name="dfm_gdpr">Gdpr</string>
+<!--    <string name="app_key">default</string>-->
+</resources>

@@ -1,0 +1,5 @@
+# Referenced at /Users/michael/softarclee/opensource-project/Qigsaw/features/native/build/intermediates/merged_manifests/release/AndroidManifest.xml:20
+-keep class com.iqiyi.qigsaw.sample.ccode.NativeSampleActivity { <init>(); }
+# Referenced at /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/res/layout/activity_native_sample.xml:2
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(...); }
+

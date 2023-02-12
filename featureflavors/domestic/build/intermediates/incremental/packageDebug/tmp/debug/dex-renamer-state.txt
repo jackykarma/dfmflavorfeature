@@ -1,0 +1,4 @@
+#Sat Feb 11 23:07:07 CST 2023
+base.0=/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/domestic/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

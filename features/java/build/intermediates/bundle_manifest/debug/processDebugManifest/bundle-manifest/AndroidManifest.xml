@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    featureSplit="java"
+    package="com.iqiyi.qigsaw.sample"
+    android:versionCode="271"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="28" />
+
+    <dist:module
+        dist:onDemand="false"
+        dist:title="@string/module_java" >
+        <dist:fusing dist:include="false" />
+    </dist:module>
+
+    <application
+        android:name="com.iqiyi.qigsaw.sample.java.JavaSampleApplication"
+        android:debuggable="true" >
+        <activity
+            android:name="com.iqiyi.qigsaw.sample.java.JavaSampleActivity"
+            android:process=":qigsaw"
+            android:splitName="java" />
+
+        <provider
+            android:name="com.iqiyi.qigsaw.sample.java.JavaContentProvider"
+            android:authorities="java.feature"
+            android:enabled="true"
+            android:exported="false"
+            android:splitName="java" />
+    </application>
+
+</manifest>

@@ -1,0 +1,2 @@
+[1/2] Building C object CMakeFiles/hello-jni.dir/hello-jni.c.o
+[2/2] Linking C shared library /Users/michael/softarclee/opensource-project/Qigsaw/features/native/build/intermediates/cmake/debug/obj/x86/libhello-jni.so

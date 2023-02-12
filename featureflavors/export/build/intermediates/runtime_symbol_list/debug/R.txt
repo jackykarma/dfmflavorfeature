@@ -1,0 +1,5 @@
+int layout layout_export 0x7d010000
+int raw raw 0x7d020000
+int string app_key 0x7d030000
+int xml shortcuts_export 0x7d040000
+int xml widgets 0x7d040001

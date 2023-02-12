@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Qigsaw</string>
+    <string name="module_java">java</string>
+    <string name="module_assets">assets</string>
+    <string name="module_native">native</string>
+    <string name="load_feature_kotlin">Start Kotlin Feature</string>
+    <string name="load_feature_java">Start Java Feature</string>
+    <string name="load_native_code">Start Native Feature</string>
+    <string name="load_assets">Show assets</string>
+    <string name="loading">Loading</string>
+    <string name="instructions">Press a button to perform an action.</string>
+    <string name="install_all_features_now">Install all features now</string>
+    <string name="load_all_features_deferred">Load all features deferred</string>
+    <string name="install_all_deferred">Install deferred</string>
+    <string name="uninstall_all_deferred">Uninstall deferred</string>
+    <string name="request_uninstall">Request module uninstall</string>
+    <string name="title_aiapps">Module Title</string>
+
+    <string name="sample_warm_prompt">Warm Prompt</string>
+    <string name="sample_prompt_desc">Using this feature will consume about %s M traffic data, Do you want to continue downloading?</string>
+    <string name="sample_confirm">Confirm</string>
+    <string name="sample_cancel">Cancel</string>
+</resources>

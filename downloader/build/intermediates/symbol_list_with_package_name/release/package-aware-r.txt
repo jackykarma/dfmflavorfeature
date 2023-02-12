@@ -1,0 +1,2 @@
+com.iqiyi.qigsaw.sample.downloader
+string app_name

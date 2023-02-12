@@ -1,0 +1,70 @@
+[
+  {
+    "level": "INFO",
+    "message": "android.ndkVersion from module build.gradle is not set"
+  },
+  {
+    "level": "INFO",
+    "message": "ndk.dir in local.properties is /Users/michael/softarclee/android-sdk/ndk/ndk-bundle/android-ndk-r16"
+  },
+  {
+    "level": "INFO",
+    "message": "ANDROID_NDK_HOME environment variable is /Users/michael/softarclee/android-sdk/ndk/23.1.7779620"
+  },
+  {
+    "level": "INFO",
+    "message": "sdkFolder is /Users/michael/softarclee/android-sdk"
+  },
+  {
+    "level": "WARN",
+    "message": "Support for ANDROID_NDK_HOME is deprecated and will be removed in the future. Use android.ndkVersion in build.gradle instead."
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/michael/softarclee/android-sdk/ndk/ndk-bundle/android-ndk-r16 by ndk.dir"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/michael/softarclee/android-sdk/ndk/23.1.7779620 by ANDROID_NDK_HOME"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/michael/softarclee/android-sdk/ndk-bundle in SDK ndk-bundle folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/michael/softarclee/android-sdk/ndk/23.0.7599858 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/michael/softarclee/android-sdk/ndk/21.1.6352462 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/michael/softarclee/android-sdk/ndk/ndk-bundle in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/michael/softarclee/android-sdk/ndk/toolchains in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/michael/softarclee/android-sdk/ndk/22.1.7171670 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Considering /Users/michael/softarclee/android-sdk/ndk/23.1.7779620 in SDK ndk folder"
+  },
+  {
+    "level": "INFO",
+    "message": "Rejected /Users/michael/softarclee/android-sdk/ndk/ndk-bundle in SDK ndk folder because that location has no source.properties"
+  },
+  {
+    "level": "INFO",
+    "message": "Rejected /Users/michael/softarclee/android-sdk/ndk/toolchains in SDK ndk folder because that location has no source.properties"
+  },
+  {
+    "level": "INFO",
+    "message": "Found requested ndk.dir (/Users/michael/softarclee/android-sdk/ndk/ndk-bundle/android-ndk-r16) which has version 16.0.4442984"
+  }
+]

@@ -1,0 +1,23 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iqiyi.android.qigsaw.core.splitrequest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+10
+11    <application>
+11-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:3:5-7:19
+12        <service
+12-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:4:9-6:40
+13            android:name="com.iqiyi.android.qigsaw.core.splitrequest.splitinfo.SplitUpdateService"
+13-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:5:13-99
+14            android:exported="false" />
+14-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:6:13-37
+15    </application>
+16
+17</manifest>

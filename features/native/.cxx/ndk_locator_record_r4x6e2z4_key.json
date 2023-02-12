@@ -1,0 +1,13 @@
+{
+  "ndkDirProperty": "/Users/michael/softarclee/android-sdk/ndk/ndk-bundle/android-ndk-r16",
+  "androidNdkHomeEnvironmentVariable": "/Users/michael/softarclee/android-sdk/ndk/23.1.7779620",
+  "sdkFolder": "/Users/michael/softarclee/android-sdk",
+  "sideBySideNdkFolderNames": [
+    "23.0.7599858",
+    "21.1.6352462",
+    "ndk-bundle",
+    "toolchains",
+    "22.1.7171670",
+    "23.1.7779620"
+  ]
+}

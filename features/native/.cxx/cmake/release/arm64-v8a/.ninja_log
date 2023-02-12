@@ -1,0 +1,3 @@
+# ninja log v5
+0	130	0	CMakeFiles/hello-jni.dir/hello-jni.c.o	f7cfaaf05ffab33b
+130	173	0	/Users/michael/softarclee/opensource-project/Qigsaw/features/native/build/intermediates/cmake/release/obj/arm64-v8a/libhello-jni.so	b063ad0d1114cdd2

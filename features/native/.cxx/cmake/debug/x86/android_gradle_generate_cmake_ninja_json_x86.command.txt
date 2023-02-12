@@ -1,0 +1,15 @@
+Executable : /Users/michael/softarclee/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/jni
+-B/Users/michael/softarclee/opensource-project/Qigsaw/features/native/.cxx/cmake/debug/x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-14
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/michael/softarclee/opensource-project/Qigsaw/features/native/build/intermediates/cmake/debug/obj/x86
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/michael/softarclee/android-sdk/ndk/ndk-bundle/android-ndk-r16
+-DCMAKE_CXX_FLAGS=-std=c++11
+-DCMAKE_TOOLCHAIN_FILE=/Users/michael/softarclee/android-sdk/ndk/ndk-bundle/android-ndk-r16/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/michael/softarclee/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

@@ -1,0 +1,40 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iqiyi.android.qigsaw.core.splitinstall"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitinstaller/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitinstaller/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitinstaller/src/main/AndroidManifest.xml:4:5-79
+11-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitinstaller/src/main/AndroidManifest.xml:4:22-76
+12
+13    <application>
+13-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitinstaller/src/main/AndroidManifest.xml:6:5-18:19
+14        <service
+14-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitinstaller/src/main/AndroidManifest.xml:7:9-13:19
+15            android:name="com.iqiyi.android.qigsaw.core.splitinstall.remote.SplitInstallService"
+15-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitinstaller/src/main/AndroidManifest.xml:8:13-55
+16            android:exported="false" >
+16-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitinstaller/src/main/AndroidManifest.xml:9:13-37
+17            <intent-filter>
+17-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitinstaller/src/main/AndroidManifest.xml:10:13-12:29
+18                <action android:name="com.iqiyi.android.play.core.splitinstall.BIND_SPLIT_INSTALL_SERVICE" />
+18-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitinstaller/src/main/AndroidManifest.xml:11:17-110
+18-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitinstaller/src/main/AndroidManifest.xml:11:25-107
+19            </intent-filter>
+20        </service>
+21        <service
+21-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitinstaller/src/main/AndroidManifest.xml:15:9-17:40
+22            android:name="com.iqiyi.android.qigsaw.core.splitinstall.SplitCleanService"
+22-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitinstaller/src/main/AndroidManifest.xml:16:13-46
+23            android:exported="false" />
+23-->/Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitinstaller/src/main/AndroidManifest.xml:17:13-37
+24    </application>
+25
+26</manifest>

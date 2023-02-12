@@ -1,0 +1,14 @@
+R_DEF: Internal format may change without notice
+local
+color colorBlack
+color colorGrey
+color colorWhite
+id user_cancel
+id user_confirm
+id user_conformation_tv
+layout activity_obtain_user_confirmation
+string cancel
+string confirm
+string prompt_desc
+string warm_prompt
+style Theme.ActivityDialogStyle

@@ -1,0 +1,61 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:4:5-44
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:2:1-20:12
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+	xmlns:dist
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:3:5-61
+	android:versionCode
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:2:1-20:12
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:2:11-69
+dist:module
+ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:6:5-10:19
+	dist:title
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:8:9-43
+	dist:onDemand
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:7:9-29
+dist:fusing
+ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:9:9-45
+	dist:include
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:9:22-42
+application
+ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:12:5-18:19
+activity#com.iqiyi.qigsaw.sample.ccode.NativeSampleActivity
+ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:13:9-17:20
+	android:name
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:13:19-55
+intent-filter#action:name:android.intent.action.VIEW
+ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:14:13-16:29
+action#android.intent.action.VIEW
+ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml:15:25-66
+uses-sdk
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/features/native/src/main/AndroidManifest.xml

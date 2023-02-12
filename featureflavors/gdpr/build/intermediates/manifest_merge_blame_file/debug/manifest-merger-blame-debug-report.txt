@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2018 Google LLC.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~    http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<!-- This feature module only contains a single assets file relevant to the Android app. -->
+18<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+19    xmlns:dist="http://schemas.android.com/apk/distribution"
+20    featureSplit="gdpr"
+21    package="com.jacky.android.app_aab"
+22    android:versionCode="1"
+23    android:versionName="1.0" >
+24
+25    <uses-sdk
+26        android:minSdkVersion="14"
+26-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml
+27        android:targetSdkVersion="28" />
+27-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml
+28
+29    <dist:module
+29-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:22:5-26:19
+30        dist:onDemand="true"
+30-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:23:9-29
+31        dist:title="@string/dfm_gdpr" >
+31-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:24:9-38
+32        <dist:fusing dist:include="false" />
+32-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:25:9-45
+32-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:25:22-42
+33    </dist:module>
+34
+35    <!--
+36    如果您的应用以 Android 11（API 级别 30）或更高版本为目标平台，
+37    并且需要与应用（自动可见的应用除外）交互，请在您应用的清单文件中添加 <queries> 元素。
+38    在 <queries> 元素中，按软件包名称、按 intent 签名或按提供程序授权指定其他应用
+39    -->
+40    <queries>
+40-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:42:5-46:15
+41        <package android:name="com.jacky.gdpr.cast" />
+41-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:43:9-55
+41-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:43:18-52
+42        <package android:name="com.jacky.gdpr.pmres" />
+42-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:43:9-55
+42-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:43:18-52
+43        <package android:name="com.jacky.test" />
+43-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:43:9-55
+43-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:43:18-52
+44    </queries>
+45
+46    <application
+46-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:28:5-37:19
+47        android:allowBackup="true"
+47-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:29:9-35
+48        android:debuggable="true"
+49        android:hasCode="false"
+49-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:28:18-41
+50        android:testOnly="true" >
+51        <meta-data
+51-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:31:9-33:47
+52            android:name="app_key"
+52-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:32:13-35
+53            android:value="@string/app_key" />
+53-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:33:13-44
+54        <meta-data
+54-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:34:9-36:51
+55            android:name="android.app.shortcuts"
+55-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:35:13-49
+56            android:value="@xml/shortcuts_gdpr" />
+56-->/Users/michael/softarclee/opensource-project/Qigsaw/featureflavors/gdpr/src/main/AndroidManifest.xml:36:13-48
+57    </application>
+58
+59</manifest>

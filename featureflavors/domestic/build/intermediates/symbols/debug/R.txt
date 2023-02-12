@@ -1,0 +1,5 @@
+int layout layout_domestic 0x7e010000
+int raw raw 0x7e020000
+int string app_key 0x7e030000
+int xml shortcuts_domestic 0x7e040000
+int xml widgets 0x7e040001

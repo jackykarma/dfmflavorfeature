@@ -1,0 +1,46 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2018 Google LLC.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~    http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<!-- This feature module only contains a single assets file relevant to the Android app. -->
+18<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+19    xmlns:dist="http://schemas.android.com/apk/distribution"
+20    featureSplit="assets"
+21    package="com.iqiyi.qigsaw.sample"
+22    android:versionCode="271"
+23    android:versionName="1.0.0" >
+24
+25    <uses-sdk
+26        android:minSdkVersion="14"
+26-->/Users/michael/softarclee/opensource-project/Qigsaw/features/assets/src/main/AndroidManifest.xml
+27        android:targetSdkVersion="28" />
+27-->/Users/michael/softarclee/opensource-project/Qigsaw/features/assets/src/main/AndroidManifest.xml
+28
+29    <dist:module
+29-->/Users/michael/softarclee/opensource-project/Qigsaw/features/assets/src/main/AndroidManifest.xml:22:5-26:19
+30        dist:onDemand="true"
+30-->/Users/michael/softarclee/opensource-project/Qigsaw/features/assets/src/main/AndroidManifest.xml:23:9-29
+31        dist:title="@string/module_assets" >
+31-->/Users/michael/softarclee/opensource-project/Qigsaw/features/assets/src/main/AndroidManifest.xml:24:9-43
+32        <dist:fusing dist:include="false" />
+32-->/Users/michael/softarclee/opensource-project/Qigsaw/features/assets/src/main/AndroidManifest.xml:25:9-45
+32-->/Users/michael/softarclee/opensource-project/Qigsaw/features/assets/src/main/AndroidManifest.xml:25:22-42
+33    </dist:module>
+34
+35    <application android:hasCode="false" />
+35-->/Users/michael/softarclee/opensource-project/Qigsaw/features/assets/src/main/AndroidManifest.xml:28:5-56
+35-->/Users/michael/softarclee/opensource-project/Qigsaw/features/assets/src/main/AndroidManifest.xml:28:18-41
+36
+37</manifest>

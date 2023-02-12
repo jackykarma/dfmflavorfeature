@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:2:5-57
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:1:1-8:12
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:1:1-8:12
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:3:5-7:19
+service#com.iqiyi.android.qigsaw.core.splitrequest.splitinfo.SplitUpdateService
+ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:4:9-6:40
+	android:exported
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:6:13-37
+	android:name
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml:5:13-99
+uses-sdk
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+		ADDED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
+		INJECTED from /Users/michael/softarclee/opensource-project/Qigsaw/qigsaw-android/splitrequester/src/main/AndroidManifest.xml
